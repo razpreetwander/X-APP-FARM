@@ -1,0 +1,20 @@
+Package Organization of Decompiled Source Code:
+
+1. Main Application Package (ru.zdevs.zarchiver):
+   - ru.zdevs.zarchiver: Core Application class (ZApp), Main activity (ZArchiver), File Selection activity (ZSelectFile), Image Viewer (ZImageViewer), Text Editor (ZTextEditor), and Resources.
+   - ru.zdevs.zarchiver.activity: Dialog activities for app features (AboutDlg, ExtractDlg, InstallApkDlg, InstallApksDlg, OpenAsDlg, SettingsDlg).
+   - ru.zdevs.zarchiver.archiver: Archive management classes & native JNI bridge (C2JBridge, NArc, ContentNative).
+   - ru.zdevs.zarchiver.io: File system and storage I/O handlers (ZAIO, SAF - Storage Access Framework, KitKatExtSD).
+   - ru.zdevs.zarchiver.media: Media types and MIME type utilities (MimeLib).
+   - ru.zdevs.zarchiver.provider: Content providers for file and archive sharing (ArchiveFileProvider, FileProvider, PluginFileProvider).
+   - ru.zdevs.zarchiver.service: Background services for file extraction/archiving (ZArchiverService, ZArchiverClearTemp).
+   - ru.zdevs.zarchiver.ui: UI controls, views, preferences, list views, and text input components (FSSelect, FilePanelView, EditPassword, FloatingActionMenu, LanguagePreference, ColorPreference, etc.).
+
+2. Integrated Third-Party Libraries:
+   - rikka.shizuku & moe.shizuku.api: Shizuku IPC framework integration for elevated ADB/system-level file management permissions.
+   - com.sothree.slidinguppanel: Sliding panel UI layout component.
+   - com.davemorrissey.labs.subscaleview: High-resolution image viewing library used by ZImageViewer.
+   - android.support.constraint & android.support.annotation & android.os: Android compatibility and UI constraint helper classes.
+
+3. Obfuscated / Utility Packages (R8 / ProGuard compiled):
+   - Packages a through z, a0 through z0, g1, f1: Obfuscated helper utilities handling dialogs, event listeners, UI theme management, archive format adapters, string encodings, and file helper logic.
