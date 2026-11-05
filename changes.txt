@@ -1,5 +1,0 @@
-# Yaha likho ki kya karna hai (har line ek kaam). Phir Actions -> APK Analyze -> Run.
-1. Poora Java/Kotlin source package-wise organize karke do.
-2. AndroidManifest se permissions, activities, services ki list banao.
-3. App ke API endpoints aur network calls ki list do.
-4. Login/auth ka flow samjhao.
