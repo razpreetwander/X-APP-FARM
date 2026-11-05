@@ -1,0 +1,3 @@
+INFO  - loading ...
+INFO  - processing ...
+INFO  - progress: 0 of 827 (0%)INFO  - progress: 513 of 827 (62%)INFO  - progress: 528 of 827 (63%)INFO  - progress: 571 of 827 (69%)INFO  - progress: 616 of 827 (74%)INFO  - progress: 629 of 827 (76%)INFO  - progress: 695 of 827 (84%)INFO  - progress: 746 of 827 (90%)INFO  - progress: 823 of 827 (99%)                                                             ERROR - finished with errors, count: 2

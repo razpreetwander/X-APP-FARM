@@ -10,10 +10,10 @@ scope_checks[14]:
   - name: node
     ok: true
     classification: healthy
-    detail: 24.22.1
+    detail: 24.22.2
     details:
       runtime: node
-      version: 24.22.1
+      version: 24.22.2
   - name: host
     ok: true
     classification: healthy
@@ -121,10 +121,10 @@ checks[14]:
   - name: node
     ok: true
     classification: healthy
-    detail: 24.22.1
+    detail: 24.22.2
     details:
       runtime: node
-      version: 24.22.1
+      version: 24.22.2
   - name: host
     ok: true
     classification: healthy
@@ -202,7 +202,7 @@ identity:
     state: unknown
     remediation: Call binary_session in the active client to inspect the running server identity.
   installations:
-    paths[2]: /home/runner/.npm/_npx/af752b90495482d7/node_modules/.bin/rea,/opt/hostedtoolcache/node/24.22.1/x64/bin/rea
+    paths[2]: /home/runner/.npm/_npx/af752b90495482d7/node_modules/.bin/rea,/opt/hostedtoolcache/node/24.22.2/x64/bin/rea
     state: multiple
   skill:
     installed_version: "49"
