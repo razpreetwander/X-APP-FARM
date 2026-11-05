@@ -1,0 +1,5 @@
+# Yaha likho kya karna hai (har line ek kaam). Phir Actions -> APK Analyze -> Run.
+1. Poora source recover karo: Java/Kotlin code, resources, AndroidManifest.
+2. Jin methods ko jadx decompile nahi kar paya (bad code), unhe apktool ke smali se compare karke theek karo. Andaza mat lagao, jo pakka nahi use "UNCERTAIN" likho.
+3. Ye change karo: [yaha apna asli change likho, example: "Button X ka color blue se green karo in MainActivity"]
+4. Ek RECOVERY_REPORT likho: kya poora mila, kya adhoora, aur kyun. Aur ye bhi likho ki change apply hua ya nahi, agar nahi to kyun.
