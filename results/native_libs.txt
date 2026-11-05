@@ -1,0 +1,9 @@
+out/raw/lib/arm64-v8a/libmime.so
+out/raw/lib/arm64-v8a/libiconv.so
+out/raw/lib/arm64-v8a/libp7zbin.so
+out/raw/lib/arm64-v8a/libunrar.so
+out/raw/lib/arm64-v8a/libcoreutils.so
+out/raw/lib/arm64-v8a/libcontrol.so
+out/raw/lib/arm64-v8a/libp7zip.so
+out/raw/lib/arm64-v8a/libunegg.so
+out/raw/lib/arm64-v8a/libhandler.so
