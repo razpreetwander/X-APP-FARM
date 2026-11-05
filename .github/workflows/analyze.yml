@@ -168,7 +168,12 @@ jobs:
           Report me har kaam ke liye likho: kya kiya, kya mila, kya nahi ho paya.
           Bade source ko poora padhne ki koshish mat karo, zaroorat ke files hi dekho.
           PROMPT
-          gemini --yolo -p "$(cat prompt.txt)" || true
+          for M in gemini-3.6-flash gemini-3.1-flash-lite gemini-3.5-flash-lite gemini-3-flash-preview gemini-3.8-flash; do
+            echo "=== Model try: $M ==="
+            timeout 20m gemini -m "$M" --yolo -p "$(cat prompt.txt)" || true
+            if [ -f report/report.md ]; then echo "Report ban gaya, model: $M"; break; fi
+            sleep 20
+          done
           test -f report/report.md
 
       - uses: actions/upload-artifact@v4
